@@ -74,24 +74,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝙷𝙴𝚈,my name is Zarah/n
-𝙸'𝙰𝙼 𝙰 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! 𝙲𝙻𝙸𝙲𝙺` *📚𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂 [.](https://telegra.ph/file/e7e98bc303115ab6ce93b.jpg)
+𝙷𝙴𝚈,my name is ᑕᗩᖇᒪᗩ/n
+𝙸'𝙰𝙼 𝙰 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! 𝙲𝙻𝙸𝙲𝙺` *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂 [.](https://telegra.ph/file/babdb60ad4578d3a0457b.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/Zarah_Robot?startgroup=true"),
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/Carla_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹ️ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="ℹABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="✨Owner✨", url="http://t.me/FlyingKILI"),
+            text="Owner", url="http://t.me/FlyingKILI"),
         InlineKeyboardButton(
-            text="👥SUPPORT👥", url="https://t.me/marvelmoviesstuff"),
+            text="SUPPORT", url="https://t.me/marvelmoviesstuff"),
     ],
     [  
         InlineKeyboardButton(text="Thanks to", url="https://t.me/marvelmoviesstuff"),
@@ -102,10 +102,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*Zarah comes with many special features in it*༆
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF Zarah*꧂
+༆*ᑕᗩᖇᒪᗩ comes with many special features in it*༆
+*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ᑕᗩᖇᒪᗩ*
 𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @marvelmoviesstuff* [.]()
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @marvelmoviesstuff* [.](https://telegra.ph/file/0ae0e34710919214c4871.jpg)
 """
 
 
