@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝙷𝙴𝚈,my name is ᑕᗩᖇᒪᗩ/n
+𝙷𝙴𝚈,my name is ᑕᗩᖇᒪᗩ
 𝙸'𝙰𝙼 𝙰 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! 𝙲𝙻𝙸𝙲𝙺` *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂 [.](https://telegra.ph/file/babdb60ad4578d3a0457b.jpg)
 """
 
@@ -102,10 +102,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-༆*ᑕᗩᖇᒪᗩ comes with many special features in it*༆
+*ᑕᗩᖇᒪᗩ comes with many special features in it*
 *CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ᑕᗩᖇᒪᗩ*
-𖣘 *All commands can either be used with* `/` *or* `!`.
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @marvelmoviesstuff* [.](https://telegra.ph/file/0ae0e34710919214c4871.jpg)
+*All commands can either be used with* `/` *or* `!`.
+*If you facing any issue or find any bugs in any command then you can report it in @marvelmoviesstuff* [.](https://telegra.ph/file/0ae0e34710919214c4871.jpg)
 """
 
 
@@ -194,7 +194,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="BACK", callback_data="help_back")]]
                     ),
                 )
 
@@ -354,7 +354,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Zarah*, a powerful group management bot built to help you manage your group easily.
+            text=""" I'm *ᑕᗩᖇᒪᗩ*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -362,7 +362,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://t.me/marvelmoviesstuff).
+                 Here is the [Repository](https://t.me/marvelmoviesstuff).
                  If you have any question about Rikudo senin, let us know at @FlyingKILI.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -389,7 +389,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Zarah*
+            text=""" Hi.. I'm *ᑕᗩᖇᒪᗩ*
                  \nHere is the [Source Code](https://t.me/marvelmoviesstuff) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
