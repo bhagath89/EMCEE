@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 𝙷𝙴𝚈,my name is ᑕᗩᖇᒪᗩ
-𝙸'𝙰𝙼 𝙰 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! 𝙲𝙻𝙸𝙲𝙺` *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂 [.](https://telegra.ph/file/babdb60ad4578d3a0457b.jpg)
+𝙸'𝙰𝙼 𝙰 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙸𝙽𝙶 𝙱𝙾𝚃! 𝙲𝙻𝙸𝙲𝙺` *𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂* `𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆 𝚃𝙾 𝙴𝚇𝙿𝙻𝙾𝚁𝙴 𝙼𝙾𝚁𝙴 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴 𝙰𝙽𝙳 𝙼𝚈 𝙵𝚄𝙽𝙲𝚃𝙸𝙾𝙽𝚂 [.](https://telegra.ph/file/24ca402f5f0638ac8f2d4.jpg)
 """
 
 buttons = [
@@ -105,7 +105,7 @@ HELP_STRINGS = """
 *ᑕᗩᖇᒪᗩ comes with many special features in it*
 *CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ᑕᗩᖇᒪᗩ*
 *All commands can either be used with* `/` *or* `!`.
-*If you facing any issue or find any bugs in any command then you can report it in @marvelmoviesstuff* [.](https://telegra.ph/file/0ae0e34710919214c4871.jpg)
+*If you facing any issue or find any bugs in any command then you can report it in @marvelmoviesstuff* [.]()
 """
 
 
@@ -390,7 +390,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi.. I'm *ᑕᗩᖇᒪᗩ*
-                 \nHere is the [Source Code](https://t.me/marvelmoviesstuff) .""",
+                 \nHere is the [Source Code](https://t.me/FlyingKILI) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
