@@ -81,20 +81,20 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="t.me/Carla_Robot?startgroup=true"),
+            text="ADD ME TO YOUR GROUP", url="t.me/Carla_Robot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ℹABOUT", callback_data="masha_"),
+        InlineKeyboardButton(text="ABOUT", callback_data="Carla_Robot"),
         InlineKeyboardButton(text="COMMANDS", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
             text="Owner", url="http://t.me/FlyingKILI"),
         InlineKeyboardButton(
-            text="SUPPORT", url="https://t.me/marvelmoviesstuff"),
+            text="SUPPORT", url="https://t.me/FlyingKILI"),
     ],
     [  
-        InlineKeyboardButton(text="Thanks to", url="https://t.me/marvelmoviesstuff"),
+        InlineKeyboardButton(text="Thanks to", url="https://t.me/FlyingKILI"),
     ], 
     
 ]
@@ -102,10 +102,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*ᑕᗩᖇᒪᗩ comes with many special features in it*
-*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF ᑕᗩᖇᒪᗩ*
-*All commands can either be used with* `/` *or* `!`.
-*If you facing any issue or find any bugs in any command then you can report it in @marvelmoviesstuff* [.]()
+『HELP BUTTONS HERE』 [.]()
 """
 
 
@@ -354,7 +351,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" I'm *ᑕᗩᖇᒪᗩ*, a powerful group management bot built to help you manage your group easily.
+            text="""
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -362,7 +359,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Emcee's licensed under the GNU General Public License v3.0_
-                 Here is the [Repository](https://t.me/marvelmoviesstuff).
+                 Here is the [Repository](https://t.me/uvvauvve).
                  If you have any question about Rikudo senin, let us know at @FlyingKILI.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
