@@ -4,7 +4,7 @@ HAGUROMO OTSUSUKI IS ADVANCE GROUP MANAGER BOT FOR GEEKS
 
 CLICK ON BELOW IMAGE TO DEPLOY ON HEROKU 
 
-[![DEPLOY](https://telegra.ph/file/eb96601d279cbbe5538f9.jpg)](https://heroku.com/deploy?template=https://github.com/satyanandatripathi/EMCEE)
+[![DEPLOY](https://telegra.ph/file/eb96601d279cbbe5538f9.jpg)](https://heroku.com/deploy?template=https://github.com/bhagath89/EMCEE)
 
 Keep supporting us 😊
 
